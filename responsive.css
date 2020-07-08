@@ -1,0 +1,110 @@
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .feature .card{
+        margin-bottom: 20px;
+    }
+
+    .online-courses{
+        margin-top: -105px;
+    }
+
+    .carousel-item img{
+        margin-right: 125px;
+    }
+
+    .testimonial-area p{
+        text-align: center;
+    }
+
+    .blog-area .card {
+        margin-top: 14px;
+    }
+
+    .blog-area{
+        text-align: center;
+
+    }
+
+    .blog-area .row {
+        margin-top: -45px;
+    }
+}
+
+
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .hero-img{
+        margin-top: 175px;
+    }
+
+    .feature .card{
+        padding: 24px 0px;
+    }
+
+    .card-body h5 {
+        font-size: 13px;
+    }
+
+    .card-body p{
+        font-size: 13px; 
+    }
+
+    .btn-green {
+        padding: 4px 14px;
+    }
+
+    .card-footer{
+        padding: 0;
+    }
+
+    .online-courses {
+        margin-top: -80px;
+    }
+
+    .testimonial-area p{
+        margin-top: -70px;
+    }
+
+    .card-body h5{
+        font-size: 11px;
+    }
+
+    .card-body small{
+        font-size: 12px;
+    }
+    .card-body .btn-green {
+        font-size: 10px;
+    }
+}
+
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .hero-img{
+        margin-top: 75px;
+    }
+
+    .card-footer img{
+        width: 13px;
+    }
+    .card-footer small {
+        font-size: 9px;
+    }
+
+    .testimonial-area p{
+        margin-top: -23px;
+    }
+
+    .card-body h5{
+        font-size: 18px;
+    }
+
+    .card-body .btn-green {
+        font-size: 11px;
+    }
+}
+

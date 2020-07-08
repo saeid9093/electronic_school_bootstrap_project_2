@@ -1,0 +1,168 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    color: grey;
+}
+
+
+
+/*  --------------- Hero Section Start ---------------  */
+.navbar img{
+    width: 150px;
+}
+
+.bg-light-green{
+    background-color: #F0FFF0;
+}
+
+.btn-green{
+    background-color: #21B573;
+    color: white;
+    border: 1px solid #21B573;
+    border-radius: 30px;
+    padding: 7px 20px;
+    transition: .5s;
+}
+
+button:hover{
+    border:1px solid #21B573;
+    background-color: white;
+    color: #21B573;
+}
+.navbar a{
+   transition: .3s;
+}
+.navbar li a:hover{
+    background-color: #21B573 ;
+    border-radius: 5px;
+    color: white !important;
+}
+
+.text-green{
+    color: #21B573;
+}
+
+.para{
+    font-size: 16px;
+    line-height: 36px;
+}
+/*  --------------- Hero Section End ---------------  */
+
+
+
+/*  --------------- Features Section Start ---------------  */
+.feature .card{
+    border: none;
+    border-radius: 5px;
+    background-color: #F8FFFB;
+    transition: .5s;
+}
+
+.feature .card:hover{
+    box-shadow: 1px 1px 15px silver;
+    background-color: white;
+}
+
+.feature .card img{
+    width: 50px;
+}
+/*  --------------- Features Section End ---------------  */
+
+
+
+/*  --------------- Online Course Section Start ---------------  */
+.online-courses .card{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px silver;
+}
+
+.card-footer {
+    padding-left: 20px;
+    background-color: white;
+    border-top: none;
+}
+
+.card-footer img{
+    width: 20px;
+}
+/*  --------------- Online Course Section End ---------------  */
+
+
+
+/*  --------------- Contact us Section Start ---------------  */
+.contact-area{
+    background-image: url("images/Photos/map.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-area h1{
+    color: white;
+}
+
+.contact-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.39);
+    z-index: -1;
+}
+/*  --------------- Contact us Section End ---------------  */
+
+
+
+/*  --------------- Footer Top Section Start ---------------  */
+.footer-top{
+    background-color: #1B1C1F;
+}
+
+.footer-top p{
+    font-size: 14px;
+}
+
+.footer-top ul li{
+    list-style: none;
+    color: white;
+}
+
+.footer-top ul li a{
+    font-size: 12px;
+    color: white;
+}
+/*  --------------- Footer Top Section End ---------------  */
+
+
+
+/*  --------------- scrollTop Start ---------------  */
+.scrollup {
+    position: fixed;
+    bottom: 23px;
+    right: 40px;
+    font-size: 50px;
+    color: grey;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+scrollup a:hover {
+    text-decoration: none;
+}
+.scrollup i:hover{
+    color: grey;
+}
+/*  --------------- scrollTop End ---------------  */
+
+
+
+/*  --------------- Footer Bottom Section Start ---------------  */
+footer{
+    background-color:  #1B1C1F;
+}
+/*  --------------- Footer Bottom Section End ---------------  */
